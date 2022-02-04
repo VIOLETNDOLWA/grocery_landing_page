@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page for fresh food</title>
+    <!-- google fonts links -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:ital,wght@1,300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<!-- boxicons  links -->
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+     <!-- MOBILE NAV -->
+     <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class='bx bxs-food-menu'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonials">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+    </div>
+    <!-- END MOBILE NAV -->
+    <!-- top button start -->
+    <a href="#home" class="back-to-top"><i class="bx bxs-to-top"></i></a>
+     <!-- top button end -->
+    <!-- start of top navigation menu -->
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="#home">
+                <div class="logo">
+                    Fresh Grocer
+                </div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="menu-item active">Home</div>
+                </a>
+                <a href="#about">
+                    <div class="menu-item">About</div>
+                </a>
+                <a href="#food-menu-section">
+                    <div class="menu-item">Menu</div>
+                </a>
+                <a href="#testimonials">
+                    <div class="menu-item">Tesimonials</div>
+                </a>
+            </div>
+            <div class="right-menu">
+                <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+            </div>
+        </div>
+    </div>
+    <!-- End of navigation menu -->
+
+    <!-- start of  home section part -->
+    <section id="home" class="fullheight align-items-centre  bg-img bg-img-fixed" style="background-image: url(images/background.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="fresh">
+                        <h1 class="left-to-right play-on-scroll">Fresh Grocer</h1>
+                        
+                        <p class="left-to-right play-on-scroll delay-2">Fresh Grocer is your doorstep grocery shop. We are an online convenience store for all your grocery needs where you can experience value for your money, at your convenience and the best quality products in the market. We do not just promise, we deliver.</p>
+                       <div class="left-to-right play-on-scroll delay-4">
+                           <button >Order now</button>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    <!-- End of home section part -->
+
+    <!-- start of about section part -->
+    <section class="about">
+    <div class="fullheight align-items-centre" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 h-xs">
+                  <img src="images/image.jpg" alt="fresh vegetables" class="fullwidth left-to-right play-on-scroll">
+                </div>  
+                    <div class="col-5 col-xs-12 align-items-centre">
+                    <div class="about-fresh right-to-left play-on-scroll">
+                        <h3><span class="primary-color">What</span> we <span class="primary-color">do</span> </h3>
+                            <p>Fresh Grocer eases your life by removing the hustle of you creating time off your busy schedules to go to the market to source for your groceries. We take it upon ourselves to source, package and deliver to your doorstep all your grocery requirements. We source these directly from farmers to ensure that quality is not compromised.</p> 
+                    </div>
+                 </div>
+             </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about section part -->
+      <!-- start of food menu section part -->
+      <section class="align-item-centre bg-img bg-img-fixed" id="food-menu-section" style="background-image:url(images/background1.jpeg)">
+         <div class="container">
+             <div class="food-menu">
+                 <h1>Explore<span class="primary-color"> our</span> range</h1>
+                 <p>We seek the best fruits and vagetables products from around Kenya and the world.</p>
+                     <div class="food-category">
+                         <div class="zoom play-on-scroll"> <button class="active" data-food-type ="all">All food</button>
+                        </div>
+                         <div class="zoom play-on-scroll delay-4">
+                            <button data-food-type ="salad">Salad</button>
+                         </div>
+                            <div class="zoom play-on-scroll delay-6">
+                                <button data-food-type ="fruits">Fruits</button>
+                            </div>
+                         <div class="zoom play-on-scroll delay-8">
+                            <button data-food-type ="vegetables">Vegetable</button>
+                         </div>
+                     </div>
+                     <div class="food-item-wrap all">
+                         <div class="food-item salad-type">
+                             <div class="item-wrap bottom-up play-on-scroll">
+                                 <div class="item-img">
+                                     <div class="img-holder bg-img" style="background-image: url(images/salad1.jpg)"></div>
+                                 </div>
+                                 <div class="item-info">
+                                     <div>
+                                         <h3>Avacado apple salad</h3>
+                                         <span>KES. 250.00</span>
+                                     </div>
+                                     <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="food-item fruits-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/banana.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Banana</h3>
+                                            <span>KES. 145.00 / Kg</span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div>
+                               <div class="food-item vegetables-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/sukuma\ wiki.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Kales</h3>
+                                            <span>KES. 43.00 / Bunch</span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div>
+                               <div class="food-item salad-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/salad2.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Germany salad</h3>
+                                            <span>KES.300.00 </span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div>
+                               <div class="food-item fruits-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/grape.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Grapes</h3>
+                                            <span>KES. 140.00 / Kg</span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div>
+                               <div class="food-item vegetables-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/tomatoes.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Tomatoes</h3>
+                                            <span>KES. 155.00 / Kg</span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div>
+                               <div class="food-item salad-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/salad3.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Ham salad</h3>
+                                            <span>KES. 400.00 </span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div>
+                               <div class="food-item fruits-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/avacado.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Avacado</h3>
+                                            <span>KES. 135.00 / Kg</span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div> 
+                               <div class="food-item vegetables-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/broccoli.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Broccoli</h3>
+                                            <span>KES. 125.00 / Kg</span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div> 
+                               <div class="food-item salad-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/salad5.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Green salad</h3>
+                                            <span>KES.600.00</span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div> 
+                               <div class="food-item fruits-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/plums.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Plums</h3>
+                                            <span>KES. 100.00 / Kg</span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div> 
+                               <div class="food-item vegetables-type">
+                                <div class="item-wrap bottom-up play-on-scroll">
+                                    <div class="item-img">
+                                        <div class="img-holder bg-img" style="background-image: url(images/spinach.jpg)"></div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div>
+                                            <h3>Spinach</h3>
+                                            <span>KES. 110.00 / Bunch</span>
+                                        </div>
+                                        <div class="cart-btn"><i class='bx bx-cart-alt' ></i></div>
+                                    </div>
+                                   </div>
+                               </div> 
+                     </div>
+                 </div>
+         </div>
+      </section>
+       <!-- end of food menu section part -->
+       <!-- start of testimonial section -->
+       <section id="testimonials">
+           <div class="container">
+               <div class="row">
+                   <div class="col-4 col-xs-12">
+                       <div class="review-wrap zoom play-on-scroll delay-2">
+                           <div class="review-content">
+                               <p>"I always hated grocery shopping.  With my work schedule, I never had time to put together a list and spend an unnecessary amount of minutes at the grocery store getting my food for the week.  Now with Fresh Grocery,
+                                    I can do all my food shopping online and save myself the time and hassle of going to the supermarket"</p>
+                                <div class="review-img bg-img" style="background-image: url(images/man1.jpeg)"></div>
+                           </div>
+                           <div class="review-info">
+                               <h3>Charles</h3>
+                               <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-4 col-xs-12">
+                    <div class="zoom play-on-scroll">
+                       <div class="review-wrap active">
+                        <div class="review-content">
+                            <p>"Sometimes my servants will forget to bring me items I requested from the market.  Instead of sending them back out,
+                                 I just go onto to Fresh Grocery Store and get what I need. It's convenient and easy to use!" </p>
+                             <div class="review-img bg-img" style="background-image: url(images/lady2.jpeg)"></div>
+                        </div>
+                        <div class="review-info">
+                            <h3>Leila</h3>
+                            <div class="rating">
+                             <i class='bx bxs-star'></i>
+                             <i class='bx bxs-star'></i>
+                             <i class='bx bxs-star'></i>
+                             <i class='bx bxs-star'></i>
+                             <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-4 ">
+                        <div class="review-content">
+                            <p>"I always hated grocery shopping. With my work schedule, I never had time to put together a list and spend an unnecessary amount of minutes at the grocery store getting my food for the week. Now with Fresh Grocery,
+                                 I can do all my food shopping online and save myself the time and hassle of going to the supermarket"</p>
+                             <div class="review-img bg-img" style="background-image: url(images/lady1.jpg)"></div>
+                        </div>
+                        <div class="review-info">
+                            <h3>Melvin</h3>
+                            <div class="rating">
+                             <i class='bx bxs-star'></i>
+                             <i class='bx bxs-star'></i>
+                             <i class='bx bxs-star'></i>
+                             <i class='bx bxs-star'></i>
+                             <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   
+               </div>
+           </div>
+       </section>
+        <!-- end of testimonial section -->
+        <section class="footer bg-img" style="background-image: url(images/image4.jpg)">
+           <div class="container">
+               <div class="row">
+                   <div class="col-6 col-xs-12">
+                       <h1>Fresh food</h1><br>
+                       <p>Hand-selected Fruits and Veggies, direct from responsible  <br> farmers, hygienically packed and delivered Fresh to you.</p>
+                            
+                            
+                   </div>
+                   <div class="col-2 col-xs-12">
+                       <h1>Contact information</h1><br>
+                       <p> freshfood@gmail.com</p>
+                        <p> +25412456789</p>
+                        <p> freshfood.com</p>
+                   </div>
+                   <!-- <div class="col-4 col-xs-12">
+                       <!-- <h1>Subscribe</h1><br>
+                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam odio inventore natus mollitia nulla error magnam quos maxime tempora excepturi.</p>
+                       <div class="input-group">
+                           <input type="text" placeholder="Entre your email">
+                           <button>Subscribe</button>
+                       </div>
+                   </div> --> 
+               </div>
+           </div>
+ </section>
+ <script src="main.js"></script>
+</body>
+</html>
