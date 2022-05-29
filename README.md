@@ -1,1 +1,1 @@
-#  Landing page design for grocery website
+# Grocery landing page with HTML5, CSS3 and JavaScript
